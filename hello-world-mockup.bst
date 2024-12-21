@@ -1,8 +1,7 @@
 ##* made by omri *##
 
-!!!from compiler include compiler.to-asm
-!!!from combust require combust.class~
-!!!from combust require combust.terminal~
+!!!from compiler include compiler.class§compiler.compile.class~
+!!!from combust require combust.class§combust.terminal.class~
 !!!program-name [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]~
 
 ##* import required and define program names *##
@@ -30,3 +29,4 @@ public class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x6
   end~
 finish~
 
+compiler::compiler.compile(new Class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64])~
