@@ -1,6 +1,6 @@
 ##* made by omri *##
 
-!!!from buster include buster.class§buster.class.Class.class§buster.class.compile.class~
+!!!from buster include buster.class§buster.class.Class.class§buster.class.Byte.class§buster.class.compile.class~
 !!!from combust require combust.class§combust.class.terminal.class~
 !!!program-name [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]~
 
@@ -8,7 +8,7 @@
 ##* define a class to run in *##
 public buster::buster.Class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]:
   ##* RUNNABLE func *##
-  runnable function main{Byte[] args}:
+  runnable function main{buster::Byte[] variable args}:
     variable combust::terminal mainterminal = combust::combust.terminal.open{}~
     check if {args element in 0.5 is equal to 0x48}?
       mainterminal.print_hex{0x48}~
