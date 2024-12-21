@@ -1,6 +1,6 @@
 ##* made by omri *##
 
-!!!from compiler include compiler.class§compiler.class.Class.class§compiler.class.compile.class~
+!!!from compiler include buster.class§compiler.class.Class.class§compiler.class.compile.class~
 !!!from combust require combust.class§combust.class.terminal.class~
 !!!program-name [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]~
 
@@ -29,4 +29,4 @@ public compiler::compiler.Class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F�
   end~
 finish~
 
-compiler::compiler.compile(compiler::compiler.Class::new([0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]))~
+buster::compiler.compile(compiler::compiler.Class::new([0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]))~
