@@ -1,7 +1,7 @@
 ##* made by omri *##
 
-!!!from compiler include (what to put here)~
-!!!from combust require combust.class,combust.terminal~
+!!!from compiler include combust.terminal~
+!!!from combust require combust.class~
 !!!program-name [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]~
 
 ##* import required and define program names *##
