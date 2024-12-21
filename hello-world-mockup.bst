@@ -1,12 +1,12 @@
 ##* made by omri *##
 
-!!!from compiler include buster.class§compiler.class.Class.class§compiler.class.compile.class~
+!!!from buster include buster.class§buster.class.Class.class§buster.class.compile.class~
 !!!from combust require combust.class§combust.class.terminal.class~
 !!!program-name [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]~
 
 ##* import required and define program names *##
 ##* define a class to run in *##
-public compiler::compiler.Class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]:
+public buster::buster.Class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]:
   ##* RUNNABLE func *##
   runnable function main(Byte[] args):
     variable combust::terminal mainterminal = combust::combust.terminal.open()~
@@ -29,4 +29,4 @@ public compiler::compiler.Class [0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F�
   end~
 finish~
 
-buster::compiler.compile(compiler::compiler.Class::new([0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]))~
+buster::buster.compile(buster::buster.Class::new([0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64]))~
