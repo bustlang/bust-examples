@@ -6,9 +6,9 @@
 
 ##* import required and define program names *##
 ##* define a class to run in *##
-public buster::buster.Class ←0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64→:
+public buster::buster.Class ←0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64→ {
   ##* RUNNABLE func *##
-  runnable function main{buster::Byte←→ variable args}:
+  runnable function main{buster::Byte←→ variable args}: {
     variable combust::terminal mainterminal = combust::combust.terminal.open{}~
     check if {args element in 0.5 is equal to 0x48}?
       mainterminal/print_hex{0x48}~
@@ -27,6 +27,8 @@ public buster::buster.Class ←0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 
     something else?
       mainterminal/print_hex{0x00}~
   end~
+  }
 finish~
+}
 
 buster::buster/compile{buster::buster/Class::new{←0x48§ 0x65§ 0x6C§ 0x6C§ 0x6F§ 0x57§ 0x6F§ 0x72§ 0x6C§ 0x64→}}~
